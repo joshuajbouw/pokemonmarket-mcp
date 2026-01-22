@@ -1,0 +1,92 @@
+{
+  "paymentRequest": {
+    "id": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+    "pubkey": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "created_at": 1700000000,
+    "kind": 4,
+    "tags": [
+      ["p", "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321"],
+      ["unicity", "payment-request"]
+    ],
+    "content": "{\"type\":\"PAYMENT_REQUEST\",\"amount\":49.99,\"currency\":\"ALPHA\",\"message\":\"Payment for order: Elder Futhark Rune Set\",\"paymentAddress\":\"0x1234567890abcdef1234567890abcdef12345678\"}",
+    "sig": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "tokenTransfer": {
+    "id": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+    "pubkey": "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321",
+    "created_at": 1700000060,
+    "kind": 4,
+    "tags": [
+      ["p", "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"],
+      ["e", "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"],
+      ["unicity", "token-transfer"]
+    ],
+    "content": "{\"type\":\"TOKEN_TRANSFER\",\"transferId\":\"transfer-001\",\"amount\":49.99,\"tokenProof\":\"0000000000000000000000000000000000000000000000000000000000000001\"}",
+    "sig": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+  },
+  "timeoutScenario": {
+    "paymentRequest": {
+      "id": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "pubkey": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "created_at": 1700000000,
+      "kind": 4,
+      "tags": [
+        ["p", "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321"],
+        ["unicity", "payment-request"]
+      ],
+      "content": "{\"type\":\"PAYMENT_REQUEST\",\"amount\":149.99,\"currency\":\"ALPHA\",\"message\":\"Payment for order: Viking Compass Pendant\",\"paymentAddress\":\"0xabcdef1234567890abcdef1234567890abcdef12\"}",
+      "sig": "2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+    },
+    "noTransferReceived": true,
+    "expectedTimeoutMs": 120000,
+    "expectedErrorMessage": "Payment timeout after 120 seconds. Payment request eventId: c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+  },
+  "multiItemPayment": {
+    "paymentRequest": {
+      "id": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "pubkey": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "created_at": 1700000100,
+      "kind": 4,
+      "tags": [
+        ["p", "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321"],
+        ["unicity", "payment-request"]
+      ],
+      "content": "{\"type\":\"PAYMENT_REQUEST\",\"amount\":129.98,\"currency\":\"ALPHA\",\"message\":\"Payment for order: Elder Futhark Rune Set, Runic Divination Kit (Standard)\",\"paymentAddress\":\"0x1234567890abcdef1234567890abcdef12345678\"}",
+      "sig": "3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+    },
+    "tokenTransfer": {
+      "id": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "pubkey": "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321",
+      "created_at": 1700000160,
+      "kind": 4,
+      "tags": [
+        ["p", "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"],
+        ["e", "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5"],
+        ["unicity", "token-transfer"]
+      ],
+      "content": "{\"type\":\"TOKEN_TRANSFER\",\"transferId\":\"transfer-002\",\"amount\":129.98,\"tokenProof\":\"0000000000000000000000000000000000000000000000000000000000000002\"}",
+      "sig": "4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444"
+    }
+  },
+  "testPubkeys": {
+    "server": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "customer": "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321",
+    "serverPrivateKey": "0000000000000000000000000000000000000000000000000000000000000001",
+    "customerPrivateKey": "0000000000000000000000000000000000000000000000000000000000000002"
+  },
+  "testUnicityIds": {
+    "validCustomer": "@test-customer",
+    "invalidCustomer": "@nonexistent-user",
+    "resolvedPubkey": "fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321"
+  },
+  "testCartIds": {
+    "validCartId": "550e8400-e29b-41d4-a716-446655440000",
+    "emptyCartId": "550e8400-e29b-41d4-a716-446655440001",
+    "nonexistentCartId": "550e8400-e29b-41d4-a716-446655440099"
+  },
+  "testAmounts": {
+    "singleItem": "4999",
+    "multipleItems": "12998",
+    "expensiveItem": "14999"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "products": [
+    {
+      "id": "gid://shopify/Product/8001234567890",
+      "title": "Elder Futhark Rune Set",
+      "handle": "elder-futhark-rune-set",
+      "description": "Complete set of 24 Elder Futhark runes carved in natural stone.",
+      "descriptionHtml": "<p>Complete set of 24 Elder Futhark runes carved in natural stone.</p>",
+      "vendor": "Runic Vault",
+      "productType": "Rune Set",
+      "tags": ["runes", "elder-futhark", "divination", "stone"],
+      "availableForSale": true,
+      "featuredImage": {
+        "url": "https://cdn.shopify.com/s/files/runic-vault/elder-futhark.jpg",
+        "altText": "Elder Futhark Rune Set",
+        "width": 800,
+        "height": 800
+      },
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "url": "https://cdn.shopify.com/s/files/runic-vault/elder-futhark.jpg",
+              "altText": "Elder Futhark Rune Set",
+              "width": 800,
+              "height": 800
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/44001234567890",
+              "title": "Default Title",
+              "sku": "EF-RUNE-001",
+              "availableForSale": true,
+              "quantityAvailable": 15,
+              "price": {
+                "amount": "49.99",
+                "currencyCode": "USD"
+              },
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "Default Title"
+                }
+              ],
+              "image": null
+            }
+          }
+        ]
+      },
+      "options": [
+        {
+          "name": "Title",
+          "values": ["Default Title"]
+        }
+      ],
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "49.99",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "49.99",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8001234567891",
+      "title": "Runic Divination Kit",
+      "handle": "runic-divination-kit",
+      "description": "Premium divination kit with velvet pouch and guidebook.",
+      "descriptionHtml": "<p>Premium divination kit with velvet pouch and guidebook.</p>",
+      "vendor": "Runic Vault",
+      "productType": "Divination Kit",
+      "tags": ["divination", "kit", "premium", "guidebook"],
+      "availableForSale": true,
+      "featuredImage": {
+        "url": "https://cdn.shopify.com/s/files/runic-vault/divination-kit.jpg",
+        "altText": "Runic Divination Kit",
+        "width": 800,
+        "height": 800
+      },
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "url": "https://cdn.shopify.com/s/files/runic-vault/divination-kit.jpg",
+              "altText": "Runic Divination Kit",
+              "width": 800,
+              "height": 800
+            }
+          },
+          {
+            "node": {
+              "url": "https://cdn.shopify.com/s/files/runic-vault/divination-kit-deluxe.jpg",
+              "altText": "Runic Divination Kit - Deluxe",
+              "width": 800,
+              "height": 800
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/44001234567891",
+              "title": "Standard",
+              "sku": "DIV-KIT-STD",
+              "availableForSale": true,
+              "quantityAvailable": 8,
+              "price": {
+                "amount": "79.99",
+                "currencyCode": "USD"
+              },
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Edition",
+                  "value": "Standard"
+                }
+              ],
+              "image": null
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/44001234567892",
+              "title": "Deluxe",
+              "sku": "DIV-KIT-DLX",
+              "availableForSale": true,
+              "quantityAvailable": 3,
+              "price": {
+                "amount": "99.99",
+                "currencyCode": "USD"
+              },
+              "compareAtPrice": {
+                "amount": "119.99",
+                "currencyCode": "USD"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Edition",
+                  "value": "Deluxe"
+                }
+              ],
+              "image": {
+                "url": "https://cdn.shopify.com/s/files/runic-vault/divination-kit-deluxe.jpg",
+                "altText": "Runic Divination Kit - Deluxe",
+                "width": 800,
+                "height": 800
+              }
+            }
+          }
+        ]
+      },
+      "options": [
+        {
+          "name": "Edition",
+          "values": ["Standard", "Deluxe"]
+        }
+      ],
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "79.99",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "99.99",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8001234567892",
+      "title": "Viking Compass Pendant",
+      "handle": "viking-compass-pendant",
+      "description": "Vegvisir compass pendant in sterling silver.",
+      "descriptionHtml": "<p>Vegvisir compass pendant in sterling silver.</p>",
+      "vendor": "Runic Vault",
+      "productType": "Jewelry",
+      "tags": ["vegvisir", "pendant", "silver", "jewelry", "viking"],
+      "availableForSale": true,
+      "featuredImage": {
+        "url": "https://cdn.shopify.com/s/files/runic-vault/compass-pendant.jpg",
+        "altText": "Viking Compass Pendant",
+        "width": 800,
+        "height": 800
+      },
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "url": "https://cdn.shopify.com/s/files/runic-vault/compass-pendant.jpg",
+              "altText": "Viking Compass Pendant",
+              "width": 800,
+              "height": 800
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/44001234567893",
+              "title": "Default Title",
+              "sku": "VCP-001",
+              "availableForSale": true,
+              "quantityAvailable": 5,
+              "price": {
+                "amount": "149.99",
+                "currencyCode": "USD"
+              },
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "Default Title"
+                }
+              ],
+              "image": null
+            }
+          }
+        ]
+      },
+      "options": [
+        {
+          "name": "Title",
+          "values": ["Default Title"]
+        }
+      ],
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "149.99",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "149.99",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8001234567893",
+      "title": "Runic Altar Cloth",
+      "handle": "runic-altar-cloth",
+      "description": "Hand-embroidered altar cloth with runic symbols.",
+      "descriptionHtml": "<p>Hand-embroidered altar cloth with runic symbols.</p>",
+      "vendor": "Runic Vault",
+      "productType": "Altar Supplies",
+      "tags": ["altar", "cloth", "embroidered", "runic"],
+      "availableForSale": false,
+      "featuredImage": {
+        "url": "https://cdn.shopify.com/s/files/runic-vault/altar-cloth.jpg",
+        "altText": "Runic Altar Cloth",
+        "width": 800,
+        "height": 800
+      },
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "url": "https://cdn.shopify.com/s/files/runic-vault/altar-cloth.jpg",
+              "altText": "Runic Altar Cloth",
+              "width": 800,
+              "height": 800
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/44001234567894",
+              "title": "Default Title",
+              "sku": "RAC-001",
+              "availableForSale": false,
+              "quantityAvailable": 0,
+              "price": {
+                "amount": "34.99",
+                "currencyCode": "USD"
+              },
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "Default Title"
+                }
+              ],
+              "image": null
+            }
+          }
+        ]
+      },
+      "options": [
+        {
+          "name": "Title",
+          "values": ["Default Title"]
+        }
+      ],
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "34.99",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "34.99",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8001234567894",
+      "title": "Rune Casting Board",
+      "handle": "rune-casting-board",
+      "description": "Wooden casting board with engraved runic circle.",
+      "descriptionHtml": "<p>Wooden casting board with engraved runic circle.</p>",
+      "vendor": "Runic Vault",
+      "productType": "Divination Tools",
+      "tags": ["casting", "board", "wooden", "rune", "divination"],
+      "availableForSale": true,
+      "featuredImage": {
+        "url": "https://cdn.shopify.com/s/files/runic-vault/casting-board.jpg",
+        "altText": "Rune Casting Board",
+        "width": 800,
+        "height": 800
+      },
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "url": "https://cdn.shopify.com/s/files/runic-vault/casting-board.jpg",
+              "altText": "Rune Casting Board",
+              "width": 800,
+              "height": 800
+            }
+          }
+        ]
+      },
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/44001234567895",
+              "title": "Default Title",
+              "sku": "RCB-001",
+              "availableForSale": true,
+              "quantityAvailable": 12,
+              "price": {
+                "amount": "59.99",
+                "currencyCode": "USD"
+              },
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "Default Title"
+                }
+              ],
+              "image": null
+            }
+          }
+        ]
+      },
+      "options": [
+        {
+          "name": "Title",
+          "values": ["Default Title"]
+        }
+      ],
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "59.99",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "59.99",
+          "currencyCode": "USD"
+        }
+      }
+    }
+  ]
+}
