@@ -1,0 +1,156 @@
+{
+  "variants": {
+    "gid://shopify/ProductVariant/44001234567890": {
+      "id": "gid://shopify/ProductVariant/44001234567890",
+      "title": "Default Title",
+      "sku": "EF-RUNE-001",
+      "availableForSale": true,
+      "quantityAvailable": 15,
+      "price": {
+        "amount": "49.99",
+        "currencyCode": "USD"
+      },
+      "compareAtPrice": null,
+      "selectedOptions": [
+        {
+          "name": "Title",
+          "value": "Default Title"
+        }
+      ],
+      "image": null,
+      "product": {
+        "id": "gid://shopify/Product/8001234567890",
+        "title": "Elder Futhark Rune Set",
+        "handle": "elder-futhark-rune-set"
+      }
+    },
+    "gid://shopify/ProductVariant/44001234567891": {
+      "id": "gid://shopify/ProductVariant/44001234567891",
+      "title": "Standard",
+      "sku": "DIV-KIT-STD",
+      "availableForSale": true,
+      "quantityAvailable": 8,
+      "price": {
+        "amount": "79.99",
+        "currencyCode": "USD"
+      },
+      "compareAtPrice": null,
+      "selectedOptions": [
+        {
+          "name": "Edition",
+          "value": "Standard"
+        }
+      ],
+      "image": null,
+      "product": {
+        "id": "gid://shopify/Product/8001234567891",
+        "title": "Runic Divination Kit",
+        "handle": "runic-divination-kit"
+      }
+    },
+    "gid://shopify/ProductVariant/44001234567892": {
+      "id": "gid://shopify/ProductVariant/44001234567892",
+      "title": "Deluxe",
+      "sku": "DIV-KIT-DLX",
+      "availableForSale": true,
+      "quantityAvailable": 3,
+      "price": {
+        "amount": "99.99",
+        "currencyCode": "USD"
+      },
+      "compareAtPrice": {
+        "amount": "119.99",
+        "currencyCode": "USD"
+      },
+      "selectedOptions": [
+        {
+          "name": "Edition",
+          "value": "Deluxe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/runic-vault/divination-kit-deluxe.jpg",
+        "altText": "Runic Divination Kit - Deluxe",
+        "width": 800,
+        "height": 800
+      },
+      "product": {
+        "id": "gid://shopify/Product/8001234567891",
+        "title": "Runic Divination Kit",
+        "handle": "runic-divination-kit"
+      }
+    },
+    "gid://shopify/ProductVariant/44001234567893": {
+      "id": "gid://shopify/ProductVariant/44001234567893",
+      "title": "Default Title",
+      "sku": "VCP-001",
+      "availableForSale": true,
+      "quantityAvailable": 5,
+      "price": {
+        "amount": "149.99",
+        "currencyCode": "USD"
+      },
+      "compareAtPrice": null,
+      "selectedOptions": [
+        {
+          "name": "Title",
+          "value": "Default Title"
+        }
+      ],
+      "image": null,
+      "product": {
+        "id": "gid://shopify/Product/8001234567892",
+        "title": "Viking Compass Pendant",
+        "handle": "viking-compass-pendant"
+      }
+    },
+    "gid://shopify/ProductVariant/44001234567894": {
+      "id": "gid://shopify/ProductVariant/44001234567894",
+      "title": "Default Title",
+      "sku": "RAC-001",
+      "availableForSale": false,
+      "quantityAvailable": 0,
+      "price": {
+        "amount": "34.99",
+        "currencyCode": "USD"
+      },
+      "compareAtPrice": null,
+      "selectedOptions": [
+        {
+          "name": "Title",
+          "value": "Default Title"
+        }
+      ],
+      "image": null,
+      "product": {
+        "id": "gid://shopify/Product/8001234567893",
+        "title": "Runic Altar Cloth",
+        "handle": "runic-altar-cloth"
+      }
+    },
+    "gid://shopify/ProductVariant/44001234567895": {
+      "id": "gid://shopify/ProductVariant/44001234567895",
+      "title": "Default Title",
+      "sku": "RCB-001",
+      "availableForSale": true,
+      "quantityAvailable": 12,
+      "price": {
+        "amount": "59.99",
+        "currencyCode": "USD"
+      },
+      "compareAtPrice": null,
+      "selectedOptions": [
+        {
+          "name": "Title",
+          "value": "Default Title"
+        }
+      ],
+      "image": null,
+      "product": {
+        "id": "gid://shopify/Product/8001234567894",
+        "title": "Rune Casting Board",
+        "handle": "rune-casting-board"
+      }
+    }
+  }
+}
