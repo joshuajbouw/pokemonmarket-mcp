@@ -193,6 +193,8 @@ function createTestConfig(overrides?: Partial<Config>): Config {
       paymentTimeoutSeconds: 5, // Short timeout for tests
     },
     dataDir: "./test-data",
+    transport: "stdio",
+    httpPort: 3000,
     ...overrides,
   };
 }

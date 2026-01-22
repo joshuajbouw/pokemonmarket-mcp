@@ -1,0 +1,28 @@
+services:
+  runic-vault-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: runic-vault-mcp
+    restart: unless-stopped
+    # Run as current user to match host file permissions for ./data mount
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - "${MCP_PORT:-3000}:3000"
+    env_file:
+      - .env
+    environment:
+      # Override for container paths
+      - DATA_DIR=/app/data
+      # Transport (http for remote deployment)
+      - MCP_TRANSPORT=http
+      - MCP_PORT=3000
+    volumes:
+      # Mount local data folder to persist identity and tokens
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

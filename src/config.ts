@@ -24,6 +24,10 @@ const configSchema = z.object({
 
   // Data directory
   dataDir: z.string().default("./data"),
+
+  // Server transport
+  transport: z.enum(["stdio", "http"]).default("stdio"),
+  httpPort: z.number().int().positive().default(3000),
 });
 
 export type Config = z.infer<typeof configSchema>;
@@ -46,6 +50,8 @@ function loadConfig(): Config {
         : undefined,
     },
     dataDir: process.env.DATA_DIR,
+    transport: process.env.MCP_TRANSPORT,
+    httpPort: process.env.MCP_PORT ? parseInt(process.env.MCP_PORT, 10) : undefined,
   };
 
   const result = configSchema.safeParse(rawConfig);

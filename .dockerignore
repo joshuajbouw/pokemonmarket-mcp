@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# IDE and editor
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Git
+.git
+.gitignore
+
+# Environment files (pass via docker run -e or compose)
+.env
+.env.*
+!.env.example
+
+# MCP Inspector config (contains secrets)
+mcp-inspector.json
+
+# Test files
+**/*.test.ts
+**/*.spec.ts
+coverage
+
+# Documentation
+*.md
+!README.md
+
+# Data directory (mount as volume)
+data
+
+# Claude config
+.claude
+
+# OS files
+.DS_Store
+Thumbs.db
