@@ -22,7 +22,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.26.0",
     "@unicitylabs/nostr-js-sdk": "^0.2.5",
     "@unicitylabs/state-transition-sdk": "^1.6.0",
     "dotenv": "^17.2.3",
